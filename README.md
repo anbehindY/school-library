@@ -1,34 +1,47 @@
+<a name="readme-top"></a>
+![Grey And White Modern LinkedIn Article Cover Image](https://github.com/anbehindY/vet-clinic/assets/110251622/5dd98313-8f77-4414-9fb0-368e125e4faf)
+
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 OOP school library ](#about-project)
-  - [:hammer\_and\_wrench: Built With ](#hammer_and_wrench-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [💻 Getting Started ](#-getting-started-)
+- [📖 School Library](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [💻 Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
-  - [:telescope: Future Features ](#telescope-future-features-)
-  - [:handshake: Contributing ](#handshake-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+    - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 OOP school library <a name="about-project"></a>
-In this project, Imagine that you are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them. The app that you will create will allow you to:Add new students or teachers. Add new books. Save records of who borrowed a given book and when.
+# 📖 School library <a name="about-project"></a>
+
+**School library** highlights the features of a school library along with object oriented programming.
+
+Just imagine that you are a librarian in a school and need a tool to record what books are in the library and who borrows them. This app will allow you to: Add new students or teachers. Add new books. Save records of who borrowed a given book and when.
  
-## :hammer_and_wrench: Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with"></a>
 - Ruby
-- Robocop
+- Rubocop
 
 ### Tech Stack <a name="tech-stack"></a>
+
 <details>
-  <summary>Version Control</summary>
+  <summary>Ruby</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Version Control System</summary>
   <ul>
     <li><a href="https://github.com/">Git Hub</a></li>
   </ul>
@@ -44,9 +57,9 @@ In this project, Imagine that you are the librarian of OOP University, and you n
 
 ### Key Features <a name="key-features"></a>
 
-- Add new students or teachers.
-- Add new books.
-- Save records of who borrowed a given book and when.
+- Add new students or teachers
+- Add new books
+- Save records of rental books
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,12 +72,12 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-- Visual Studio Code.
-- Ruby.
-- Robocop.
-- GitHub Account.
+- Visual Studio Code
+- Ruby
+- Rubocop
+- GitHub Account
 
-### Setup
+### Usage
 
 Clone this repository to your desired folder:
 ```sh
@@ -72,29 +85,22 @@ Clone this repository to your desired folder:
 ```
 Use git clone command or download ZIP folder
 
-### Install
 
-- `you can run any one of these commands to install bundle on your machine:`
-```
-- bundle init
-- bundle install
-- sudo apt bundle install (for Linux)
-```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Yan Min Thwin**
 
-- GitHub: [@Yan Min Thwin](https://github.com/anbehindY)
-- Twitter: [@Yan Min Thwin](https://twitter.com/yanminthwin)
-- LinkedIn: [@Yan Min Thwin](https://www.linkedin.com/in/yan-min-thwin/)
-
+- GitHub: [@anbehindY](https://github.com/anbehindY)
+- Twitter: [@yanminthwin](https://twitter.com/yanminthwin)
+- LinkedIn: [Yan Min Thwin](https://www.linkedin.com/in/yan-min-thwin/)
 
 <!-- FUTURE FEATURES -->
 
-## :telescope: Future Features <a name="future-features"></a><br/>
-- [ ] **Unit tests**<br/>
+## 🔭 Future Features <a name="future-features"></a><br/>
+- [ ] **Unit tests**
+- [ ] **Front-end designs for library app**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
