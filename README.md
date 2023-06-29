@@ -1,49 +1,42 @@
-<a name="readme-top"></a>
-![Grey And White Modern LinkedIn Article Cover Image](https://github.com/anbehindY/vet-clinic/assets/110251622/5dd98313-8f77-4414-9fb0-368e125e4faf)
-
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
-- [📖 School Library](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [💻 Getting Started](#getting-started)
-    - [Setup](#setup)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 OOP school library ](#about-project)
+  - [:hammer\_and\_wrench: Built With ](#hammer_and_wrench-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
-    - [Usage](#usage)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [:telescope: Future Features ](#telescope-future-features-)
+  - [:handshake: Contributing ](#handshake-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 School library <a name="about-project"></a>
-
-> School library is a project for representation of objects and classes in ruby.
-
-**School library** highlights the features of a school library along with object oriented programming.
-
-## 🛠 Built With <a name="built-with"></a>
+# 📖 OOP school library <a name="about-project"></a>
+In this project, Imagine that you are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them. The app that you will create will allow you to:Add new students or teachers. Add new books. Save records of who borrowed a given book and when.
+ 
+## :hammer_and_wrench: Built With <a name="built-with"></a>
+- Ruby
+- Robocop
 
 ### Tech Stack <a name="tech-stack"></a>
-
 <details>
-
-<summary>Backend</summary>
+  <summary>Version Control</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
+    <li><a href="https://github.com/">Git Hub</a></li>
   </ul>
 </details>
-
-<summary>Database</summary>
+<details>
+  <summary>Visual Studio Code</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
   </ul>
 </details>
 
@@ -51,10 +44,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-
-- **Basic Ruby**
-- **Classes and Objects in Ruby**
-- **Object oriented programming**
+- Add new students or teachers.
+- Add new books.
+- Save records of who borrowed a given book and when.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,74 +59,66 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-
- - PostgreSQL
- - Notepad
- - Visual studio code (or other code editors)
+- Visual Studio Code.
+- Ruby.
+- Robocop.
+- GitHub Account.
 
 ### Setup
 
-Install Ruby
+Clone this repository to your desired folder:
+```sh
+   git clone git@github.com:anbehindY/school-library.git
+```
+Use git clone command or download ZIP folder
 
+### Install
 
-### Usage
-
-Clone a local copy and go live
-
-<!-- AUTHORS -->
+- `you can run any one of these commands to install bundle on your machine:`
+```
+- bundle init
+- bundle install
+- sudo apt bundle install (for Linux)
+```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Yan Min Thwin**
 
-- GitHub: [@anbehindY](https://github.com/anbehindY)
-- Twitter: [@yanminthwin](https://twitter.com/yanminthwin)
-- LinkedIn: [Yan Min Thwin](https://www.linkedin.com/in/yan-min-thwin/)
+- GitHub: [@Yan Min Thwin](https://github.com/anbehindY)
+- Twitter: [@Yan Min Thwin](https://twitter.com/yanminthwin)
+- LinkedIn: [@Yan Min Thwin](https://www.linkedin.com/in/yan-min-thwin/)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-
-- [ ] **Front-end designs for library app**
-
-
+## :telescope: Future Features <a name="future-features"></a><br/>
+- [ ] **Unit tests**<br/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## :handshake: Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are warmly welcome!
-
- - https://github.com/anbehindY/school-library/issues
+Contributions, issues, and feature requests are welcome!<br/>
+Feel free to check the [issues page](https://github.com/anbehindY/school-library/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please give it a star.
+If you like this project, please give it a star, and if you would love to tell me ways to improve it, contact me on LinkedIn or Twitter. It will be a pleasure to hear from you.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+- I would like to thank [Microverse](https://www.microverse.org/) for giving this opportunity to learn.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is [MIT](https://github.com/anbehindY/school-library/blob/dev/LICENSE) licensed.
