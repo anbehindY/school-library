@@ -20,8 +20,8 @@ class App
   def list_people
     puts 'No people found' if @people.empty?
     @people.each do |person|
-      puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}" if person.class == Student
-      puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}" if person.class == Teacher
+      puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}" if person.instance_of?(Student)
+      puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}" if person.instance_of?(Teacher)
     end
   end
 
