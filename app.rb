@@ -3,7 +3,7 @@ require_relative 'classes/teacher'
 require_relative 'classes/book'
 require_relative 'classes/rental'
 
-class App 
+class App
   def initialize
     @books = []
     @people = []
@@ -11,14 +11,14 @@ class App
   end
 
   def list_books
-    puts "No books found" if @books.empty?
+    puts 'No books found' if @books.empty?
     @books.each do |book|
       puts "Title: \"#{book.title}\", Author: #{book.author}"
     end
   end
-  
+
   def list_people
-    puts "No people found" if @people.empty?
+    puts 'No people found' if @people.empty?
     @people.each do |person|
       puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}" if person.class == Student
       puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}" if person.class == Teacher
@@ -26,10 +26,10 @@ class App
   end
 
   def list_rentals
-    puts "No book rentals found" if @rentals.empty?
+    puts 'No book rentals found' if @rentals.empty?
     print 'ID of the person: '
     person_id = gets.chomp.to_i
-    puts "Rentals: "
+    puts 'Rentals: '
     @rentals.each do |rental|
       if rental.person.id == person_id
         puts "Date: #{rental.date}, Book: \"#{rental.book.title}\" by #{rental.book.title}"
@@ -43,9 +43,9 @@ class App
     print 'Name: '
     name = gets.chomp
     print 'Has parent permission? [Y/N]: '
-    parent_permission = true if gets.chomp.capitalize === 'Y'
+    parent_permission = true if gets.chomp.capitalize == 'Y'
     @people << Student.new(parent_permission, age, name)
-    puts "Student created successfully"
+    puts 'Student created successfully'
   end
 
   def create_teacher
@@ -56,7 +56,7 @@ class App
     print 'Specialization: '
     specialization = gets.chomp
     @people << Teacher.new(specialization, age, name)
-    puts "Teacher created successfully"
+    puts 'Teacher created successfully'
   end
 
   def create_person
@@ -66,14 +66,14 @@ class App
     create_student if person_type == 1
     create_teacher if person_type == 2
   end
-  
+
   def create_book
     print 'Title: '
     title = gets.chomp
     print 'Author: '
     author = gets.chomp
     @books << Book.new(title, author)
-    puts "Book created successfully"
+    puts 'Book created successfully'
   end
 
   def create_rental
@@ -99,6 +99,6 @@ class App
     print 'Date: '
     date = gets.chomp
     @rentals << Rental.new(date, book, person)
-    puts "Rental created successfully"
+    puts 'Rental created successfully'
   end
-end  
+end

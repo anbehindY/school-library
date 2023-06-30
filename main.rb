@@ -14,30 +14,30 @@ def operations_list
   print 'Enter a number: '
 end
 
+def take_action(app, input)
+  case input
+  when 1
+    app.list_books
+  when 2
+    app.list_people
+  when 3
+    app.create_book
+  when 4
+    app.create_person
+  when 5
+    app.create_rental
+  when 6
+    app.list_rentals
+  end
+end
+
 def main
   app = App.new
   input = nil
   until input == 7
     operations_list
     input = gets.chomp.to_i
-    case input
-    when 1
-      app.list_books
-    when 2
-      app.list_people
-    when 3
-      app.create_book
-    when 4
-      app.create_person
-    when 5
-      app.create_rental
-    when 6
-      app.list_rentals
-    when 7
-      break
-    else
-      puts 'Invalid option, please try again'
-    end
+    take_action(app, input)
   end
 end
 
