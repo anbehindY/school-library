@@ -36,7 +36,7 @@ class App
     puts 'Rentals: '
     @rentals.each do |rental|
       if rental.person.id == person_id
-        puts "Date: #{rental.date}, Book: \"#{rental.book.title}\" by #{rental.book.title}"
+        puts "Date: #{rental.date}, Book: \"#{rental.book.title}\" by #{rental.book.author}"
       end
     end
   end
