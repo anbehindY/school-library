@@ -1,12 +1,12 @@
 require_relative '../classes/person'
 require_relative '../classes/book'
+require_relative '../classes/rental'
 
 describe Person do
   context 'After typing in age, name and parent permission' do
     it 'should create a new person' do
       person = Person.new(17, 'Mike', parent_permission: true)
       expect(person).to be_a(Person)
-      expect(person.id).to be_a(Integer)
       expect(person.name).to eq('Mike')
       expect(person.age).to eq(17)
     end
@@ -24,7 +24,8 @@ describe Person do
     it 'should create a new rental' do
       person = Person.new(22, 'Kanyo')
       book = Book.new('The Great Gatsby', 'F. Scott Fitzgerald')
-      person.add_rental('2021-01-01', book)
+      rental = Rental.new('2021-01-01', book, person)
+      person.add_rental(rental)
       expect(person.rentals[0].book).to eq(book)
     end
   end

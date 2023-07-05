@@ -15,8 +15,8 @@ class Person < Nameable
     super()
   end
 
-  def add_rental(date, book)
-    @rentals << Rental.new(date, book, self)
+  def add_rental(rental)
+    @rentals << rental
   end
 
   def can_use_services?
