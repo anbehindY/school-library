@@ -96,6 +96,13 @@ Use git clone command or download ZIP folder
 - Twitter: [@yanminthwin](https://twitter.com/yanminthwin)
 - LinkedIn: [Yan Min Thwin](https://www.linkedin.com/in/yan-min-thwin/)
 
+
+👤 **Abdi Bekele**
+
+- GitHub: [@Lul-Abdifan](https://github.com/Lul-Abdifan)
+- Twitter: [@twitterhandle](https://twitter.com/AbdiBekele68808)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdi-bekele-a63860254/)
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a><br/>
