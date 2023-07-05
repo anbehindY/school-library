@@ -33,12 +33,18 @@ end
 
 def main
   app = App.new
-  input = nil
-  until input == 7
+   app.loaded_book
+  loop do
     operations_list
     input = gets.chomp.to_i
     take_action(app, input)
+    if(input === 7)
+      app.save_books
+      break
+    end
   end
+  
+  
 end
 
 main
