@@ -33,13 +33,13 @@ end
 
 def main
   app = App.new
-   app.loaded_book
+  app.load
   loop do
     operations_list
     input = gets.chomp.to_i
     take_action(app, input)
     if(input === 7)
-      app.save_books
+      app.save
       break
     end
   end
