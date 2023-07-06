@@ -2,6 +2,8 @@ require_relative 'classes/student'
 require_relative 'classes/teacher'
 require_relative 'classes/book'
 require_relative 'classes/rental'
+require_relative 'load'
+require_relative 'save'
 require 'json'
 
 
@@ -11,34 +13,19 @@ class App
     @people = []
     @rentals = []
   end
-   
-  def save_books
-    updated_books = []
-  
-    @books.each do |book|
-      updated_books << { 'title' => book.title, 'author' => book.author }
-    end
-  
-     File.write('books.json', JSON.pretty_generate(updated_books))
+
+  def load
+    loaded_book
+    loaded_people
+    loaded_rentals
   end
 
-def loaded_book
-  if File.exist?('books.json')
-    load_books = File.read('books.json')
-     json_books = JSON.parse(load_books)
-  else
-    File.write('books.json', [])
-    json_books = []
-  end
-
-  return if json_books.empty?
-
-  new_books = json_books.map { |book|  @books<<Book.new(book['title'], book['author']) }
-                                                  
-  
-end
-
-
+  def save
+    save_books
+    save_people
+    save_rentals
+  end  
+           
   def list_books
     puts 'No books found' if @books.empty?
     @books.each do |book|
@@ -56,8 +43,9 @@ end
         puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
       end
     end
+   
   end
-
+  
   def list_rentals
     puts 'No book rentals found' if @rentals.empty?
     print 'ID of the person: '
@@ -69,6 +57,7 @@ end
       end
     end
   end
+  
 
   def create_student
     print 'Age: '
