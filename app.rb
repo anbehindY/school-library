@@ -2,12 +2,27 @@ require_relative 'classes/student'
 require_relative 'classes/teacher'
 require_relative 'classes/book'
 require_relative 'classes/rental'
+require_relative 'load'
+require_relative 'save'
+require 'json'
 
 class App
   def initialize
     @books = []
     @people = []
     @rentals = []
+  end
+
+  def load
+    loaded_book
+    loaded_people
+    loaded_rentals
+  end
+
+  def save
+    save_books
+    save_people
+    save_rentals
   end
 
   def list_books
