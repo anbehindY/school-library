@@ -38,13 +38,11 @@ def main
     operations_list
     input = gets.chomp.to_i
     take_action(app, input)
-    if(input === 7)
+    if input == 7
       app.save
       break
     end
   end
-  
-  
 end
 
 main

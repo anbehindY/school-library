@@ -6,7 +6,6 @@ require_relative 'load'
 require_relative 'save'
 require 'json'
 
-
 class App
   def initialize
     @books = []
@@ -24,8 +23,8 @@ class App
     save_books
     save_people
     save_rentals
-  end  
-           
+  end
+
   def list_books
     puts 'No books found' if @books.empty?
     @books.each do |book|
@@ -43,9 +42,8 @@ class App
         puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
       end
     end
-   
   end
-  
+
   def list_rentals
     puts 'No book rentals found' if @rentals.empty?
     print 'ID of the person: '
@@ -57,7 +55,6 @@ class App
       end
     end
   end
-  
 
   def create_student
     print 'Age: '
