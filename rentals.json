@@ -1,0 +1,14 @@
+[
+  {
+    "date": "2023-02-02",
+    "book": {
+      "author": "abdi",
+      "title": "hope"
+    },
+    "person": {
+      "name": "naol",
+      "age": 23,
+      "id": 667
+    }
+  }
+]
